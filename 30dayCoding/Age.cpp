@@ -20,7 +20,7 @@ class Person{
 
     void Person::amIOld(){
         // Do some computations in here and print out the correct statement to the console 
-        if(age<12){
+        if(age<=12){
             cout<<"You are young."<<endl;
         }else if(age>12&&age<18){
             cout<<"You are a teenager."<<endl;
