@@ -1,5 +1,5 @@
 //Day Five
-
+https://github.com/CoDipper/HackerRank/issues/6#issue-589382646
 #include <bits/stdc++.h>
 using namespace std;
 
