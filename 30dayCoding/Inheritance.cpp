@@ -42,13 +42,13 @@ class Student :  public Person{
         avg=sum/subs;
         if(avg>=90&&avg<=100){
             sim='O';
-        }else if(avg>=90&&avg<=100){
+        }else if(avg>=80&&avg<=90){
             sim='E';
-        }else if(avg>=80&&avg<90){
-            sim='A';
         }else if(avg>=70&&avg<80){
-            sim='P';
+            sim='A';
         }else if(avg>=55&&avg<70){
+            sim='P';
+        }else if(avg>=40&&avg<55){
             sim='D';
         }else if(avg<40){
             sim='T';
