@@ -3,8 +3,6 @@
 
 using namespace std;
 
-vector<string> split_string(string);
-
 // Complete the checkMagazine function below.
 bool checkMagazine(vector<string> magazine, vector<string> note) {
     unordered_map<string, int> mag;
