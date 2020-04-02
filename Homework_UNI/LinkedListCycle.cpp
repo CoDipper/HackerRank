@@ -1,5 +1,5 @@
 
-//The function finds if wether or not there is a NULL pointer
+//The function finds if whether or not there is a NULL pointer
 // Complete the has_cycle function below.
 bool has_cycle(SinglyLinkedListNode* head) {
     unordered_set<SinglyLinkedListNode*> temp; 
